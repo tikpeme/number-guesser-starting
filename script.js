@@ -13,9 +13,9 @@ const compareGuesses = (humanNumber,computerNumber,targetNumber) =>{
    return Math.abs(computerNumber - targetNumber) <  Math.abs(humanNumber - targetNumber)  ?  0 : 1    
 }
 /// verify compareGuesses function//
-console.log(compareGuesses(10,3,5)) // should output 1
-console.log(compareGuesses(6,3,5)) // should output 1
-console.log(compareGuesses(0,3,5)) // should output 0
+//console.log(compareGuesses(10,3,5)) // should output 1
+//console.log(compareGuesses(6,3,5)) // should output 1
+//console.log(compareGuesses(0,3,5)) // should output 0
 //********************************** */
 
 //This function will be used to correctly increase the winner’s score after each round.
